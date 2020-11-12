@@ -19,13 +19,23 @@ Like many other games in its genre, **Heros of Pymoli** is free-to-play, but use
 * [Observable Trends](#observable-trends)
 
 ## Player Count 
-By doing an `nunique()` on the "SN" (screennames) column of the [purchase_data.csv](https://github.com/cveras33/pandas-challenge/blob/master/Resources/purchase_data.csv) file, the total count of players is determined to be **576**. 
+By doing an `nunique()` on the "SN" (screennames) column of the purchase_data dataframe created from the [purchase_data.csv](https://github.com/cveras33/pandas-challenge/blob/master/Resources/purchase_data.csv) file, the total count of players is determined to be **576**. 
 
 ## Purchasing Analysis (Total)
+
+To obtain the data for the derived dataframe for Purchasing Analysis, an `nunique()` was performed on the "Item Name" column of the original dataframe to get number of unique items, `mean()` was performed on the "Price" column to get the average price for unique items, `count()` was performed on the "Purchase ID" column to determine the total number of purchases made by players (even for non-unique items), and `sum()` was performed on the "Price" column to get total revenue. 
+
+The table for the derived dataframe for Purchasing Analysis can be seen below. 
 
 ![purchasing_analysis](https://github.com/cveras33/pandas-challenge/blob/master/Images/purchasing_analysis.png)
 
 ## Gender Demographics
+
+A dataframe which dropped any duplicate screennames, by performing a `drop_duplicates()` on the subset "SN", was derived from the original dataframe in order to do the data analysis for gender demographics, to ensure each player was only counted once. 
+
+The counts for gender were obtained by performing a `value_counts()` on the "Gender" column, and the percentages were obtained by performing a `value_counts(normalize = True)` where `normalize = True` in the parenthesis calculated a percentage.
+
+The table for the derived dataframe for Gender Demographics can be seen below. 
 
 ![gender_demographics](https://github.com/cveras33/pandas-challenge/blob/master/Images/gender_demographics.png)
 
