@@ -17,3 +17,45 @@ Like many other games in its genre, **Heros of Pymoli** is free-to-play, but use
 * [Most Popular Items](#most-populat-items)
 * [Most Profitable Items](#most-profitable-items)
 * [Observable Trends](#observable-trends)
+
+## Player Count 
+
+## Purchasing Analysis (Total)
+
+![purchasing_analysis](https://github.com/cveras33/pandas-challenge/blob/master/Images/purchasing_analysis.png)
+
+## Gender Demographics
+
+![gender_demographics](https://github.com/cveras33/pandas-challenge/blob/master/Images/gender_demographics.png)
+
+### Purchasing Analysis (Gender)
+
+![gender_purchasing_analysis](https://github.com/cveras33/pandas-challenge/blob/master/Images/gender_purchasing_analysis.png)
+
+## Age Demographics
+
+![age_demographics](https://github.com/cveras33/pandas-challenge/blob/master/Images/age_demographics.png)
+
+### Purchasing Analysis (Age)
+
+![age_purcase_analysis](https://github.com/cveras33/pandas-challenge/blob/master/Images/age_purchase_analysis.png)
+
+## Top Spenders
+
+![top_spender](https://github.com/cveras33/pandas-challenge/blob/master/Images/top_spenders.png)
+
+## Most Popular Items
+
+![popular](https://github.com/cveras33/pandas-challenge/blob/master/Images/most_popular_items.png)
+
+## Most Profitable Items
+
+![profitable](https://github.com/cveras33/pandas-challenge/blob/master/Images/most_profitable_items.png)
+
+## Observable Trends
+* Most users are between the ages of 15 and 24.
+* Althought most players are in the age ranges of 15-19 and 20-24 these are not the age rangers spending the most money playing the game. Rather, the age ranges spending the most money are those under 10 and between 35 and 39.
+* Males make up a majority of players.
+
+#### Status 
+This project is *complete*. 
