@@ -19,6 +19,7 @@ Like many other games in its genre, **Heros of Pymoli** is free-to-play, but use
 * [Observable Trends](#observable-trends)
 
 ## Player Count 
+By doing an `nunique()` on the "SN" (screennames) column of the [purchase_data.csv](https://github.com/cveras33/pandas-challenge/blob/master/Resources/purchase_data.csv) file, the total count of players is determined to be **576**. 
 
 ## Purchasing Analysis (Total)
 
