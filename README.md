@@ -101,5 +101,5 @@ This project is *complete*.
 
 #### Contact 
 Chloe Veras  
-[Email](chloemveras@gmail.com)  
+chloemveras@gmail.com  
 [LinkedIn](https://www.linkedin.com/in/chloeveras/)
