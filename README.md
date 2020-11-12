@@ -6,6 +6,10 @@ An independent gaming company has requested an analysis of the data for their mo
 
 Like many other games in its genre, **Heros of Pymoli** is free-to-play, but users are encouraged to purchase optional items that enhance their playing experience. As a first task, the gaming company wants a generated report that breaks down the game's purchasing data into meaningful insights.
 
+## Technology 
+
+Jupyter Notebooks was used to write the code. Python version 3.7.6 is used, as well as Pandas Python library, to create DateFrames and perform analyses. 
+
 ## Table of Contents 
 * [Player Count](#player-count)
 * [Purchasing Analysis (Total)](#purchasing-analysis-total)
@@ -41,13 +45,25 @@ The table for the derived dataframe for Gender Demographics can be seen below.
 
 ### Purchasing Analysis (Gender)
 
+For Purchasing Analysis by gender, each of the functions had `groupby(['Gender'])` come before the function of interest was performed on the dateframe so that the functions would be performed for each gender grouping. The gender groups are broken down into 3 seprate groupings: Male, Female, Other/Non-Disclosed. A `count()` is then done on the "Purchase ID" column to obtain the amount of purchases each respective gender group made. The `mean()` function was then used on the "Price" column, as well as the `sum()` function. Since these two rows are both currencies, to properly format the calculations done by the functions, `map("${:.2f}".format` was performed on the results. The last function performed was again a `sum()` function, but rather than finding the sum of all purchases, this was to find the average purchase price **per person**, so this result was then divided by the gender count from the gender demographics section. 
+
+The table for the derived dataframe for Gender Purchasing Analysis can be seen below. 
+
 ![gender_purchasing_analysis](https://github.com/cveras33/pandas-challenge/blob/master/Images/gender_purchasing_analysis.png)
 
 ## Age Demographics
 
+Similarly to the gender demographics, age demographics were requested to be analyzed as well. Since there are serveral more age groups than gender groups, the age groups were separated by binning. Ages below 10 are their own group, then groups are separated by every 5 years from 10-39, and anyone age 40+ is also in their own group. After separating the players in each age group into their respective 'bin', the same functions used in the Gender Demographics section are performed on the age demographics data. 
+
+The table for the derived dataframe for Age Demographics can be seen below. 
+
 ![age_demographics](https://github.com/cveras33/pandas-challenge/blob/master/Images/age_demographics.png)
 
 ### Purchasing Analysis (Age)
+
+Please reference Purchasing Analysis for Gender, as all the same functions and formatting are used for the Age Purchasing Analysis as well. 
+
+The table for the derived dataframe for Age Purchasing Analysis can be seen below. 
 
 ![age_purcase_analysis](https://github.com/cveras33/pandas-challenge/blob/master/Images/age_purchase_analysis.png)
 
