@@ -1,12 +1,19 @@
-# pandas-challenge
+# Heroes of Pymoli
 
-This project analyzes data about a fantasy game "Heroes of Pymoli" and its players. The game is free to play, but players have the option to make purchases in order to enhance their playing experience. The games' purchasing data is broken down in order to generate meaningful insights in the following report. In the report there is data regarding the following: 
-* Player Count
-* A general purchasing analysis 
-* Gender Demographics 
-* A Purchasing Analysis specific to gender 
-* Age Demographics 
-* A purchasing analysis specific to age 
-* An overview of top spenders 
-* An overview of most popular items 
-* An overview of most profitable items 
+## Background
+
+An independent gaming company has requested an analysis of the data for their most recent fantasy game **Heros of Pymoli**. 
+
+Like many other games in its genre, **Heros of Pymoli** is free-to-play, but users are encouraged to purchase optional items that enhance their playing experience. As a first task, the gaming company wants a generated report that breaks down the game's purchasing data into meaningful insights.
+
+## Table of Contents 
+* [Player Count](#player-count)
+* [Purchasing Analysis (Total)](#purchasing-analysis-total)
+* [Gender Demographics](#gender-demographics)
+  * [Purchasing Analysis (Gender)](#purchasing-analysis-gender)
+* [Age Demographics](#age-demographics)
+  * [Purchasing Analysis (Age)](#purchasing-analysis-age)
+* [Top Spenders](#top-spenders)
+* [Most Popular Items](#most-populat-items)
+* [Most Profitable Items](#most-profitable-items)
+* [Observable Trends](#observable-trends)
