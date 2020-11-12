@@ -69,13 +69,25 @@ The table for the derived dataframe for Age Purchasing Analysis can be seen belo
 
 ## Top Spenders
 
+In order to determine which screennames are the top 5 spenders, first the data must be grouped by "SN", so all purchases and money spent per screenname are grouped together. To do this, a `groupby(['SN'])` is done, then the dataframe is sorted by the value of the sum of "Price" column for each screenname, in descending order, bringing the biggest spenders to the top of the dataframe. The average each player spent, as well as the total are also then calculated, and formatted as currency. How this is done has been discussed in previous sections (reference Purchasing Analysis (Gender)). 
+
+The top 5 spenders can be seen below. 
+
 ![top_spender](https://github.com/cveras33/pandas-challenge/blob/master/Images/top_spenders.png)
 
 ## Most Popular Items
 
+Similarly to the top spenders section, the data is first grouped by two attributes this time, "Item Name" and "Item ID". After that, all functions performed on the data are exactly the same as in the top spenders section. 
+
+The 5 most popular items can be seen below. 
+
 ![popular](https://github.com/cveras33/pandas-challenge/blob/master/Images/most_popular_items.png)
 
 ## Most Profitable Items
+
+Lastly, most profitable items are determined in the same mannor as the top spenders and the most popular items. 
+
+The 5 most profitable items can be seen below. 
 
 ![profitable](https://github.com/cveras33/pandas-challenge/blob/master/Images/most_profitable_items.png)
 
@@ -86,3 +98,8 @@ The table for the derived dataframe for Age Purchasing Analysis can be seen belo
 
 #### Status 
 This project is *complete*. 
+
+#### Contact 
+Chloe Veras
+chloemveras@gmail.com
+[LinkedIn](https://www.linkedin.com/in/chloeveras/)
