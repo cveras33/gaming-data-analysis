@@ -100,6 +100,6 @@ The 5 most profitable items can be seen below.
 This project is *complete*. 
 
 #### Contact 
-Chloe Veras
-chloemveras@gmail.com
+Chloe Veras  
+chloemveras@gmail.com  
 [LinkedIn](https://www.linkedin.com/in/chloeveras/)
